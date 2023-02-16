@@ -24,3 +24,21 @@ foreach (var item in ar)
 Console.WriteLine(" ");
 }
 printArray(Arr);
+
+//Главный метод
+
+String[] methodLengthOfThree(String[] array)
+
+{
+
+String[] ArrayOfThree = new String[array.Length]; 
+
+for (int it = 0; it < array.Length; it++)
+{
+    if(array[it].Length <= 3) ArrayOfThree[it] = array[it];
+} 
+
+return ArrayOfThree;
+
+
+}
