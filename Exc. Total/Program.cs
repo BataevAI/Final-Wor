@@ -13,3 +13,14 @@ for(int i = 0; i < arraySize; i++) {
 Arr[i] = Console.ReadLine();
 
 }
+
+//метод печати ненулевого массива
+
+void printArray (String[] ar) {
+foreach (var item in ar)
+{
+    if (item != null) Console.Write(item + "; ");
+}
+Console.WriteLine(" ");
+}
+printArray(Arr);
