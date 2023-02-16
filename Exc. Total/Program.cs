@@ -42,3 +42,8 @@ return ArrayOfThree;
 
 
 }
+
+
+Console.WriteLine("Итоговый массив: ");
+
+printArray(methodLengthOfThree(Arr));
